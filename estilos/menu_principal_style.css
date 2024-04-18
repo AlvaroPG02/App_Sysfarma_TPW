@@ -1,0 +1,89 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #E4E9F7;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: #FFF;
+}
+
+.sidebar .image_text img{
+    height: 40px;
+}
+
+.sidebar header .image_text{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .text .name{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(132, 132, 132);
+}
+
+.sidebar .image{
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li{
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+}
+
+.sidebar li .icon,
+.sidebar li .text
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(132,132,132);
+}
+
+.sidebar header{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.sidebar .search-box{
+    background: #ecf0fc;
+}
+
+.search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: none;
+    border: 0;
+}
+
+.sidebar li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}

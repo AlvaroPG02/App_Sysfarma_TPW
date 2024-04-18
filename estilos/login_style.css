@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url(/imgs/farmacia_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgba(255, 255, 255, 0.563);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+
+.formulario .txtsesion{
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username {
+    position: relative;
+    border-bottom: 1px solid rgb(188, 188, 188);
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #8b8b8b;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+/*.recordar{
+    font-family: 'Times New Roman', Times, serif;
+    margin: -5px 0 20px 5px;
+    color: rgba(0, 0, 116, 0.821);
+    cursor: pointer;
+}*/
+
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: rgba(138, 216, 255, 0.998);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
